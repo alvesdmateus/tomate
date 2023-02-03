@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-bg-color: #141831;
+  --lighter-bg-color:#1E233F;
+  --main-text-color: #FFFFFF;
+  --lighter-text-color: #F6F3FF;
+  --secondary-bg-color: #B21D31;
+}
+
+body
+{
+  font: normal 10px Quicksand, Arial, sans-serif;
+}
+
