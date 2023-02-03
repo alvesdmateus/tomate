@@ -1,17 +1,20 @@
 import { View, Text } from 'react-native';
 
-import { LogoImg } from './LogoImg/LogoImg';
-import { LogoText } from './LogoText/LogoText';
 import { styles } from './styles';
+import SVGImg from '../../assets/logo.svg';
 
 type Props = {
 }
 
-export function Logo( {} : Props ) {
+export default function Logo( {} : Props ) {
   return (
     <View style={styles.container}>
-      <LogoImg/>
-      <LogoText/>
+      
+      <SVGImg
+        width={42}
+        height={42}
+      />
+      <Text style={styles.logoText}>t.o.mate</Text>
     </View>
   )
 }

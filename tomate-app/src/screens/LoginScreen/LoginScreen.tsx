@@ -1,15 +1,14 @@
 import { View } from 'react-native';
 
 import { styles } from './styles';
-import { Logo }  from '../../components/Logo/Logo';
+import Logo  from '../../components/Logo/Logo';
+import LoginInput from '../../components/LoginInput/LoginInput';
 
-type Props = {
-}
-
-export function LoginScreen( {} : Props ) {
+export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <Logo />
+      <Logo /> 
+      <LoginInput/>
     </View>
   )
 }
