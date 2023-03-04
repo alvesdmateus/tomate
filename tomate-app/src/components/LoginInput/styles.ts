@@ -15,13 +15,14 @@ export const styles = StyleSheet.create({
     alignContent: 'flex-start',
   },
   inputFieldText: {
-    paddingVertical: 10,
+    paddingVertical: 5,
     fontFamily: 'Inter-Bold',
     fontSize: 10,
     alignContent: 'flex-start',
     color: Colors.mainTextColor,
   },
   inputField: {
+    height: '9%',
     color: Colors.mainTextColor,
     boxSizing: 'border-box',
     width: '100%',
@@ -29,18 +30,15 @@ export const styles = StyleSheet.create({
     borderRadius: 5
   },
   inputFieldFooter: {
+    alignItems: 'center',
     fontSize: 10,
     flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
   },
-  rememberMe:{
-    color : Colors.secondaryBgColor,
-
+  rememberMe: {
+    color : Colors.mainTextColor,
   },
-  rememberMeSwitch:{
-    
-  },
+  rememberMeSwitch:{},
   nextButton: {
     backgroundColor: Colors.secondaryBgColor,
     width: '100%',

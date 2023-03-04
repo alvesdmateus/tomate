@@ -36,20 +36,9 @@ export default function Logo( {} : Props ) {
       </TextInput>
       
       <View style={styles.inputFieldFooter}>
-        
-        <Switch style={styles.rememberMeSwitch}
-          trackColor={{false: '#767577', true: '#81b0ff'}}
-          thumbColor={isEnabled ? '#f5dd4b' : '#f4f3f4'}
-          onValueChange={toggleSwitch}
-          value={isEnabled}
-        >
-          
-        </Switch>
-        
         <Text style={styles.rememberMe} >Remember me?</Text>
 
-        <Text>Forgot Password?</Text>
-      
+        <Text>Forgot Password?</Text>      
       </View>
 
       <Pressable 
